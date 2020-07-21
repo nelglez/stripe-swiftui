@@ -15,7 +15,7 @@ struct ShoppingView: View {
     @ObservedObject var paymentContextDelegate: PaymentContextDelegate
     let config = STPPaymentConfiguration.shared()
     @State private var paymentContext: STPPaymentContext!
-    let customerContext = STPCustomerContext(keyProvider: MyAPIClient())
+    
     
     let price = 20
     
@@ -90,6 +90,7 @@ struct ShoppingView: View {
     //MARK: - Configuration
     
     func paymentContextConfiguration() {
+        let customerContext = STPCustomerContext(keyProvider: MyAPIClient())
         self.config.shippingType = .shipping
         self.config.requiredBillingAddressFields = .full
         

@@ -1,6 +1,9 @@
 # stripe-swiftui
 This is an example iOS project using Stripe with SwiftUI. You will need to have your own backend ready and add your stripe key to the app delegate and the custom backend url in MYApiClient file. There are warnings in the project made which will remind you.
 
+Please give my project a star.
+I take donations via paypal if this code was helpful to you in any way. My paypal email: ngftlaudhosp@yahoo.com
+
 ![Create user view](https://github.com/nelglez/stripe-swiftui/blob/master/image/ss1.png)
 
 ![Checkout view](https://github.com/nelglez/stripe-swiftui/blob/master/image/ss2.png)
